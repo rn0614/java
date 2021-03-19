@@ -1,0 +1,10 @@
+java.uti.function 패키지의 함수적 인터페이스(5가지 종류)
+
+consumer : 매개값(o)/리턴값(x)
+Supplier : 매개값(x)/리턴값(o)
+Function : 매개값(o)/리턴값(o) :주로 매개 값을 리턴 값으로 매핑(타입 변환)
+Operator : 매개값(o)/리턴값(o) : 주로 매개값을 연산하고 결과 리턴
+Predicate : 매개값(o)/리턴값(o) : 매개값을 조사해서 boolean 리턴
+
+Consumer <T> 인터페이스 타겟 타입으로 하는 람다식
+Consumer <String> consumer = t-> {t를 소비하는 실행문;}
